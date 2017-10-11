@@ -155,7 +155,7 @@
             },
             methods: {
                 init:function(){
-                    $.getJSON(base_url+'report/getall/', function (data) {
+                    $.getJSON(base_url+'report/getall', function (data) {
                         this.report=data;
                     }.bind(this));
                 },

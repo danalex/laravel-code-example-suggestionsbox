@@ -170,7 +170,7 @@
                 },this);
             },
             init:function(){
-                $.getJSON(base_url+'project/view/', function (data) {
+                $.getJSON(base_url+'project/view', function (data) {
                     this.projects=data;
                 }.bind(this));
                 setTimeout(function() {
